@@ -1,0 +1,45 @@
+
+
+body{
+    font-family: Arial, sans-serif;
+    margin: 40px;
+    background-color: #2c78aa52;
+
+}
+
+.form-container{
+    background-color: #f5f0f0;
+    padding: 30px;
+    border-radius: 10px;
+    width: 600px;
+    margin: auto;
+    box-shadow: 00 10px rgba(0,0,0,0,1);
+
+}
+input.ng-invalid.ng-dirty{
+    border-color: red;
+
+}
+
+input.ng-valid.ng-dirty{
+    border-color: green;
+
+}
+.error{
+    color: red;
+    font-size: 13px;
+}
+button{
+    padding: 10px20px;
+    margin-top: 10px;
+    width: 100%;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor:pointer;
+
+}
+button:disabled{
+    background-color: #0f41bf;
+}
